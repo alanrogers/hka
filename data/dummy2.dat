@@ -1,0 +1,23 @@
+# Command line: ./hka dummy2.dat
+
+     2 # loci
+#    Locus    nsA    nsB   nsAB     nA     nB     SA     SB      D
+    Locus0    100    110    321     10      1      3      0  4.123
+    Locus1    100    110    321     10      1      3      0  4.123
+#
+# nsA  Number of sites used w/i species A
+# nsB  w/i species B
+# nsAB in comparison btw A and B
+# nA   Haploid sample size for A
+# nB   for B
+# SA   Polymorphic sites w/i A
+# SB   w/i B
+# D    Mean number of site differences btw A and B
+
+########## RESULTS ##########
+#        T = 0.211198
+#        f = 0
+# theta[0] = 0.0106046
+# theta[1] = 0.0106046
+#       df = 1
+#      X^2 = 0

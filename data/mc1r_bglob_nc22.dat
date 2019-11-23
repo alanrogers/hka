@@ -1,0 +1,26 @@
+
+########## HKA Version 0_0  ##########
+# Command line: ./hka mc1r_bglob_nc22.dat
+3 # loci
+#    Locus    nsA    nsB   nsAB     nA     nB     SA     SB      D
+     bglob   2320   2320   2320    350      1     15      0     27
+      mc1r    954    954    954    524      1     13      0  17.35
+      nc22   3100   3100   3100     40      1      7      0   38.1
+#
+# nsA  Number of sites used w/i species A
+# nsB  w/i species B
+# nsAB in comparison btw A and B
+# nA   Haploid sample size for A
+# nB   for B
+# SA   Polymorphic sites w/i A
+# SB   w/i B
+# D    Mean number of site differences btw A and B
+
+## RESULTS ##
+#        T = 11.036016
+#        f = 0.000000
+# theta[0] = 0.000980
+# theta[1] = 0.001777
+# theta[2] = 0.000893
+#       df = 2
+#      X^2 = 3.534170

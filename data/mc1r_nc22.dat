@@ -1,0 +1,23 @@
+# Command line: ./hka nc22_mc1r.dat
+
+     2 # loci
+#    Locus    nsA    nsB   nsAB     nA     nB     SA     SB      D
+      nc22   3100   3100   3100     40      1      7      0   38.1
+      mc1r    954    954    954    524      1     13      0  17.35
+#
+# nsA  Number of sites used w/i species A
+# nsB  w/i species B
+# nsAB in comparison btw A and B
+# nA   Haploid sample size for A
+# nB   for B
+# SA   Polymorphic sites w/i A
+# SB   w/i B
+# D    Mean number of site differences btw A and B
+
+########## RESULTS ##########
+#        T = 11.317
+#        f = 0
+# theta[0] = 0.000877966
+# theta[1] = 0.00175115
+#       df = 1
+#      X^2 = 3.60528

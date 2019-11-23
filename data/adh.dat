@@ -1,0 +1,23 @@
+# Command line: ./hka adh.dat
+
+     2 # loci
+#    Locus    nsA    nsB   nsAB     nA     nB     SA     SB      D
+       Adh     79     79    324     81      1      8      0     18
+   5'Flank    414    414   4052     81      1      9      0    210
+#
+# nsA  Number of sites used w/i species A
+# nsB  w/i species B
+# nsAB in comparison btw A and B
+# nA   Haploid sample size for A
+# nB   for B
+# SA   Polymorphic sites w/i A
+# SB   w/i B
+# D    Mean number of site differences btw A and B
+
+########## RESULTS ##########
+#        T = 6.73436
+#        f = 0
+# theta[0] = 0.00897106
+# theta[1] = 0.0065578
+#       df = 1
+#      X^2 = 6.08551

@@ -1,0 +1,29 @@
+The C++ source is in directory cppsrc.  The C source in in csrc.  In
+either directory, rebuild by typing "make clean; make dep; make".
+Either way, you will end up with an executable named "hka" that is
+executed like this:
+
+  Usage: hka filename
+
+The two versions read the same input files and produce the same
+output.  In the input files, comments go from '#' to end-of-line.  The
+format of the other lines is as follows:
+
+line 1 : number of loci (an integer)
+
+remaining lines (1 per locus):
+   col 1: name of locus
+   col 2: number of nucleotide sites used within species A
+   col 3: number of nucleotide sites used within species B
+   col 4: number of nucleotide sites used in AB comparisons
+   col 5: haploid sample size for A
+   col 6: haploid sample size for B
+   col 7: number of polymorphic sites for A
+   col 8: number of polymorphic sites for B
+   col 9: mean number of differences in AB comparisons
+
+This is similar but not identical to the input format of Jody Hey's
+program.  The output echoes its input and puts all the results into
+comments.  Thus, the output will also serve as input.
+
+Sample data files can be found in the "data" directory.

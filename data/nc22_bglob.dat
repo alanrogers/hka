@@ -1,0 +1,23 @@
+# Command line: ./hka nc22_bglob.dat
+
+     2 # loci
+#    Locus    nsA    nsB   nsAB     nA     nB     SA     SB      D
+      nc22   3100   3100   3100     40      1      7      0   38.1
+     bglob   2320   2320   2320    350      1     15      0     27
+#
+# nsA  Number of sites used w/i species A
+# nsB  w/i species B
+# nsAB in comparison btw A and B
+# nA   Haploid sample size for A
+# nB   for B
+# SA   Polymorphic sites w/i A
+# SB   w/i B
+# D    Mean number of site differences btw A and B
+
+########## RESULTS ##########
+#        T = 14.5295
+#        f = 0
+# theta[0] = 0.000735395
+# theta[1] = 0.00082426
+#       df = 1
+#      X^2 = 1.19601

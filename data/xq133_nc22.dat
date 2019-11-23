@@ -1,0 +1,24 @@
+
+########## HKA Version 0_0  ##########
+# Command line: ./hka xq133_nc22.dat
+2 # loci
+#    Locus    nsA    nsB   nsAB     nA     nB     SA     SB      D
+      nc22   3100   3100   3100    136      8     15      9  38.33
+     xq133  10000  10000  10000     47      1     16      0   5.02
+#
+# nsA  Number of sites used w/i species A
+# nsB  w/i species B
+# nsAB in comparison btw A and B
+# nA   Haploid sample size for A
+# nB   for B
+# SA   Polymorphic sites w/i A
+# SB   w/i B
+# D    Mean number of site differences btw A and B
+
+## RESULTS ##
+#        T = 6.308267
+#        f = 0.827123
+# theta[0] = 0.001354
+# theta[1] = 0.000181
+#       df = 1
+#      X^2 = 11.679971

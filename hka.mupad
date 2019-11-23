@@ -1,0 +1,38 @@
+T := 6.73;
+theta0 := 6.6e-3;
+theta1 := 9e-3;
+
+n0A  := 81;
+n1A  := 81;
+m0A  := 79;
+m0B  := 79;
+m0AB := 324;
+m1A  := 414;
+m1B  := 414;
+m1AB := 4052;
+S0A  := 8;
+D0   := 18;
+S1A  := 9;
+D1   := 210;
+
+a0A  := sum(1.0/i, i=1..(n0A-1));
+b0A  := sum(1.0/(i*i), i=1..(n0A-1));
+a1A  := sum(1.0/i, i=1..(n1A-1));
+b1A  := sum(1.0/(i*i), i=1..(n1A-1));
+
+ES0A := theta0 * m0A * a0A;
+ES1A := theta1 * m1A * a1A;
+VS0A := ES0A + (theta0*m0A)^2 * b0A;
+VS1A := ES1A + (theta1*m1A)^2 * b1A;
+ED0  := theta0*m0AB*(T+1);
+ED1  := theta1*m1AB*(T+1);
+VD0  := ED0 + (theta0*m0AB)^2;
+VD1  := ED1 + (theta1*m0AB)^2;
+
+X2   := (S0A - ES0A)^2/VS0A + (S1A - ES1A)^2/VS1A
+        + (D0 - ED0)^2/VD0 + (D1 - ED1)^2/VD1;
+sumA  := S0A + S1A;
+EsumA := theta0*m0A*a0A + theta1*m1A*a1A;
+sumD  := D0 + D1;
+EsumD := (T+1)*(theta0*m0AB + theta1*m1AB);
+

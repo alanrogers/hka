@@ -1,0 +1,26 @@
+
+########## HKA Version C++_0_3 ##########
+# Command line: hka mc1r_xq133.dat
+
+     2 # loci
+#    Locus    nsA    nsB   nsAB     nA     nB     SA     SB      D
+     xq133  10000  10000  10000     47      1     16      0   5.02
+      mc1r    954    954    954    443      1     13      0  17.35
+#
+# nsA  Number of sites used w/i species A
+# nsB  w/i species B
+# nsAB in comparison btw A and B
+# nA   Haploid sample size for A
+# nB   for B
+# SA   Polymorphic sites w/i A
+# SB   w/i B
+# D    Mean number of site differences btw A and B
+
+## RESULTS ##
+#        T = 3.33587
+#        f = 0
+# theta[0] = 0.000240158
+# theta[1] = 0.00289068
+#       df = 1
+#      X^2 = 5.68225
+#    sim p = 0.0034

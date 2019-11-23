@@ -1,0 +1,8 @@
+########## HKA Version 0_0  ##########
+# Command line: ./hka mc1r_xq133_nc22.dat
+3 # loci
+#    Locus    nsA    nsB   nsAB     nA     nB     SA     SB      D
+      nc22   3100   3100   3100    136      8     15      9  38.33
+     xq133  10000  10000  10000     47      1     16      0   5.02
+     bglob   2320   2320   2320    350      1     15      0     27
+
